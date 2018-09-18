@@ -29,22 +29,32 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 - Node.js v8^
+#### For Unubtu
+```bash
+$ sudo apt-get update
+$ sudo apt-get install nodejs
+```
 - npm 3.5.2
+```bash
+$ sudo apt-get install npm
+```
 
 ### Installation
 Clone this project from the github repository.
 
 ```bash
 $ git clone https://github.com/christiangehl/arestech-wallet.git
-
-
+```
+```bash
 $ cd client
 (This command will change the directory to run the applicatin on Local System)
-
+```
+```bash
 $ npm install 
-(This command will install all the dependencies in package.json File)
-
+(This command will install all the dependencies from package.json File)
+```
+```bash
 $ npm start
-(This caommandd will run the application on localhost:3000)
-
+(This command will run the application on localhost:3000)
+```
 
