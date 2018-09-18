@@ -47,7 +47,7 @@ Follow below steps to run the Application on local system.
 
 ```bash
 $ cd client
-(This command will change the directory to run the applicatin on Local System)
+(This command will change the directory where applicatin will run locally)
 ```
 ```bash
 $ npm install or sudo npm install
