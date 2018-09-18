@@ -13,15 +13,12 @@ Everything in this project is in JavaScript.
 - React
 - React-router
 - Redux
-- TypeScript
 - CSS Module
 
 ### Server
 
 - Node.js
 - Express
-- MongoDB (mongoose)
-- TypeScript
 
 ## Running on your Machine
 
