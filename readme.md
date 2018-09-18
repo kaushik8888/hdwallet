@@ -31,11 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 $ sudo apt-get update
 $ sudo apt-get install nodejs
 ```
-- Check version
-```bash
-$ node -v 
-(Require version v8^)
-```
+
 - npm 
 ```bash
 $ sudo apt-get install npm
@@ -45,6 +41,10 @@ $ sudo apt-get install npm
 ```bash
 $ npm -v
 (Require version 3.5^)
+```
+```bash
+$ node -v 
+(Require version v8^)
 ```
 
 ### Installation
