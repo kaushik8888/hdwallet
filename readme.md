@@ -37,7 +37,7 @@ $ sudo apt-get install nodejs
 $ sudo apt-get install npm
 ```
 
-- Check version
+#### Check version
 ```bash
 $ npm -v
 (Require version 3.5.2^)
