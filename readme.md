@@ -24,9 +24,9 @@ Everything in this project is in JavaScript.
 
 These instructions will get you a copy of the project up and running on your local machine for development or testing purposes.
 
-### Prerequisites
+### Prerequisites and Installation
+
 - Node.js 
-#### For Unubtu
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install nodejs
@@ -40,21 +40,21 @@ $ sudo apt-get install npm
 - Check version
 ```bash
 $ npm -v
-(Require version 3.5^)
+(Require version 3.5.2^)
 ```
 ```bash
 $ node -v 
 (Require version v8^)
 ```
 
-### Installation
+### Run Locally
+Follow below steps to run the Application on local system.
+
 Clone this project from the github repository.
 
 ```bash
 $ git clone https://github.com/christiangehl/arestech-wallet.git
 ```
-### Run Locally
-Follow below steps to run the Application on local system.
 
 ```bash
 $ cd client
