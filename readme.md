@@ -25,15 +25,26 @@ Everything in this project is in JavaScript.
 These instructions will get you a copy of the project up and running on your local machine for development or testing purposes.
 
 ### Prerequisites
-- Node.js v8^
+- Node.js 
 #### For Unubtu
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install nodejs
 ```
-- npm 3.5.2
+-Check version
+```bash
+$ node -v 
+(Require version v8^)
+```
+- npm 
 ```bash
 $ sudo apt-get install npm
+```
+
+-Check version
+```bash
+$ npm -v
+(Require version 3.5^)
 ```
 
 ### Installation
