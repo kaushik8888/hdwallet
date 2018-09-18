@@ -45,6 +45,9 @@ Clone this project from the github repository.
 ```bash
 $ git clone https://github.com/christiangehl/arestech-wallet.git
 ```
+### Run Locally
+Follow below steps to run the Application on local system.
+
 ```bash
 $ cd client
 (This command will change the directory to run the applicatin on Local System)
