@@ -53,7 +53,7 @@ $ cd client
 (This command will change the directory to run the applicatin on Local System)
 ```
 ```bash
-$ npm install 
+$ npm install or sudo npm install
 (This command will install all the dependencies from package.json File)
 ```
 ```bash
