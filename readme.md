@@ -69,15 +69,15 @@ $ npm start
 (This command will run the application on localhost:3000)
 ```
 
-### Functionality List
+## Functionality List
 
-#### Generate Wallet
+### Generate Wallet
 To create Wallet, go to **Generate Wallet** tab:
 - click Generate Passphrase **Button**
 - 12 Word Mnemonic passphrase and Ether Wallet address is generated
 - copy and save both(mnemonic and address) for future use
 
-#### Wallet Info
+### Wallet Info
 To check the Wallet information, go to **Wallet Info** tab and Login: 
 - To Login, enter the 12 Word Mnemonic.
 - Wallet information like Wallet address , QR code, Ether balance is visible.
@@ -85,7 +85,7 @@ To check the Wallet information, go to **Wallet Info** tab and Login:
 To check ERC20 Token Balance on the wallet address :
 - click AddTokens **Button** and provide the token info like Contract address, Token symbol, decimal and click **Save**
 
-#### Send Ether
+### Send Ether
 To do Ether Transaction, go to **Send Ether** tab and Login:
 - To Login, use the 12 Word Mnemonic.
 - Fill the Information like Wallet Address and Amount to send the Ether.
