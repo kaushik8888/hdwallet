@@ -72,23 +72,24 @@ $ npm start
 ### Functionality List
 
 #### Generate Wallet
-- To create New Ether Wallet, click the Button **Generate Passphrase**
-- 12 Word Mnemonic passphrase and Ether Wallet address is generated, 
-  Copy and Save this on for future use
+To create Wallet, go to **Generate Wallet** tab:
+- click Generate Passphrase **Button**
+- 12 Word Mnemonic passphrase and Ether Wallet address is generated
+- copy and save both(mnemonic and address) for future use
 
 #### Wallet Info
-To check the wallet information, go to Wallet Info tab and Login: 
-- To Login, use the 12 Word Mnemonic.
+To check the Wallet information, go to **Wallet Info** tab and Login: 
+- To Login, enter the 12 Word Mnemonic.
 - Wallet information like Wallet address , QR code, Ether balance is visible.
 
 To check ERC20 Token Balance on the wallet address :
-- Click **AddTokens** Button and provide the token info like Contract address,token symbol, decimal and click **Save**
+- click AddTokens **Button** and provide the token info like Contract address, Token symbol, decimal and click **Save**
 
 #### Send Ether
-To do Ether Transaction got to Send Ether tab and Login:
+To do Ether Transaction, go to **Send Ether** tab and Login:
 - To Login, use the 12 Word Mnemonic.
 - Fill the Information like Wallet Address and Amount to send the Ether.
-- Click **Send Transaction**,
+- click Send Transaction **button**
 Transaction Successfull:
 - If amount of Ether in Wallet >= (amount of Ether to send + gas price), Transaction hash is generated and equivalent amount will be decuted from the wallet address. 
 
