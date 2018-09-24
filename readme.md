@@ -87,11 +87,15 @@ To check ERC20 Token Balance on the wallet address :
 
 ### Send Ether
 To do Ether Transaction, go to **Send Ether** tab and Login:
-- To Login, use the 12 Word Mnemonic.
+- To Login, enter the 12 Word Mnemonic.
 - Fill the Information like Wallet Address and Amount to send the Ether.
-- click Send Transaction **button**
+- click Send Transaction **button**:
+
 Transaction Successfull:
 - If amount of Ether in Wallet >= (amount of Ether to send + gas price), Transaction hash is generated and equivalent amount will be decuted from the wallet address. 
 
 Transaction Failed:
 - If amount of Ether in Wallet < (amount of Ether to send + gas price), Transaction fail and error message is shown.
+
+#### Note:
+Currently the Wallet is running in Rinkeby Test Network of Ethereum Blockchain. 
