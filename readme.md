@@ -80,7 +80,7 @@ To create Wallet, go to **Generate Wallet** tab:
 ### Wallet Info
 To check the Wallet information, go to **Wallet Info** tab and Login: 
 - To Login, enter the 12 Word Mnemonic.
-- Wallet information like Wallet address , QR code, Ether balance is visible.
+- Wallet information like Wallet address , QR code of Wallet address, Ether balance is visible.
 
 To check ERC20 Token Balance on the wallet address :
 - click AddTokens **Button** and provide the token info like Contract address, Token symbol, decimal and click **Save**
@@ -92,7 +92,7 @@ To do Ether Transaction, go to **Send Ether** tab and Login:
 - click Send Transaction **button**:
 
 Transaction Successfull:
-- If amount of Ether in Wallet >= (amount of Ether to send + gas price), Transaction hash is generated and equivalent amount will be decuted from the wallet address. 
+- If amount of Ether in Wallet >= (amount of Ether to send + gas price), Transaction hash is generated and equivalent amount of ether will be decuted from the wallet address. 
 
 Transaction Failed:
 - If amount of Ether in Wallet < (amount of Ether to send + gas price), Transaction fail and error message is shown.
