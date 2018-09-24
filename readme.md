@@ -50,7 +50,7 @@ $ node -v
 ### Run Locally
 Follow below steps to run the Application on local system.
 
-Clone this project from the github repository.
+Clone this project from the github repository and run below commands.
 
 ```bash
 $ git clone https://github.com/christiangehl/arestech-wallet.git
@@ -58,7 +58,7 @@ $ git clone https://github.com/christiangehl/arestech-wallet.git
 
 ```bash
 $ cd client
-(This command will change the directory where applicatin will run locally)
+(This command will change the directory where application will run locally)
 ```
 ```bash
 $ npm install or sudo npm install
@@ -69,3 +69,28 @@ $ npm start
 (This command will run the application on localhost:3000)
 ```
 
+### Functionality List
+
+#### Generate Wallet
+- To create New Ether Wallet, click the Button **Generate Passphrase**
+- 12 Word Mnemonic passphrase and Ether Wallet address is generated, 
+  Copy and Save this on for future use
+
+#### Wallet Info
+To check the wallet information, go to Wallet Info tab and Login: 
+- To Login, use the 12 Word Mnemonic.
+- Wallet information like Wallet address , QR code, Ether balance is visible.
+
+To check ERC20 Token Balance on the wallet address :
+- Click **AddTokens** Button and provide the token info like Contract address,token symbol, decimal and click **Save**
+
+#### Send Ether
+To do Ether Transaction got to Send Ether tab and Login:
+- To Login, use the 12 Word Mnemonic.
+- Fill the Information like Wallet Address and Amount to send the Ether.
+- Click **Send Transaction**,
+Transaction Successfull:
+- If amount of Ether in Wallet >= (amount of Ether to send + gas price), Transaction hash is generated and equivalent amount will be decuted from the wallet address. 
+
+Transaction Failed:
+- If amount of Ether in Wallet < (amount of Ether to send + gas price), Transaction fail and error message is shown.
